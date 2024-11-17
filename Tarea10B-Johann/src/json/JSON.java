@@ -55,16 +55,16 @@ public class JSON {
 			JSONArray listaAlumnos = (JSONArray) alumno;
 
 			for (Object o : listaAlumnos) {
-				JSONObject alumnos = (JSONObject) o;
+				JSONObject alumnoJson = (JSONObject) o;
 
-				String NIA = String.valueOf(alumnos.get("NIA"));
-				String nombre = String.valueOf(alumnos.get("nombre"));
-				String apellidos = String.valueOf(alumnos.get("apellidos"));
-				String genero = String.valueOf(alumnos.get("genero"));
-				String nacimiento = String.valueOf(alumnos.get("nacimiento"));
-				String ciclo = String.valueOf(alumnos.get("ciclo"));
-				String curso = String.valueOf(alumnos.get("curso"));
-				String grupo = String.valueOf(alumnos.get("grupo"));
+				String NIA = String.valueOf(alumnoJson.get("NIA"));
+				String nombre = String.valueOf(alumnoJson.get("nombre"));
+				String apellidos = String.valueOf(alumnoJson.get("apellidos"));
+				String genero = String.valueOf(alumnoJson.get("genero"));
+				String nacimiento = String.valueOf(alumnoJson.get("nacimiento"));
+				String ciclo = String.valueOf(alumnoJson.get("ciclo"));
+				String curso = String.valueOf(alumnoJson.get("curso"));
+				String grupo = String.valueOf(alumnoJson.get("grupo"));
 
 				System.out.println("  NIA: " + NIA);
 				System.out.println("  Nombre: " + nombre);
