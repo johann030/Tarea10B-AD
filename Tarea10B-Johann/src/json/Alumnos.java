@@ -93,5 +93,4 @@ public class Alumnos {
 		return "Alumnos [nia=" + nia + ", nombre=" + nombre + ", apellidos=" + apellidos + ", ciclo=" + ciclo
 				+ ", curso=" + curso + ", grupo=" + grupo + ", genero=" + genero + ", nacimiento=" + nacimiento + "]";
 	}
-	
 }
